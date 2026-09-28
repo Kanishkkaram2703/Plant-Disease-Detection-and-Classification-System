@@ -1,0 +1,476 @@
+[
+  {
+    "cell": 3,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 6,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 7,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 8,
+    "type": "execute_result",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 8,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 9,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 10,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 11,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 12,
+    "type": "stream",
+    "text": "0 36584 52263 61486\n",
+    "error": null
+  },
+  {
+    "cell": 12,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 13,
+    "type": "stream",
+    "text": "length of train size :36584\nlength of validation size :15679\nlength of test size :24902\n",
+    "error": null
+  },
+  {
+    "cell": 13,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 14,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 16,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 17,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 18,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 29,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 30,
+    "type": "stream",
+    "text": "cpu\n",
+    "error": null
+  },
+  {
+    "cell": 30,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 31,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 32,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 33,
+    "type": "execute_result",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 33,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 34,
+    "type": "stream",
+    "text": "----------------------------------------------------------------\n        Layer (type)               Output Shape         Param #\n================================================================\n            Conv2d-1         [-1, 32, 224, 224]             896\n              ReLU-2         [-1, 32, 224, 224]               0\n       BatchNorm2d-3         [-1, 32, 224, 224]              64\n            Conv2d-4         [-1, 32, 224, 224]           9,248\n              ReLU-5         [-1, 32, 224, 224]               0\n       BatchNorm2d-6         [-1, 32, 224, 224]              64\n         MaxPool2d-7         [-1, 32, 112, 112]               0\n            Conv2d-8         [-1, 64, 112, 112]          18,496\n              ReLU-9         [-1, 64, 112, 112]               0\n      BatchNorm2d-10         [-1, 64, 112, 112]             128\n           Conv2d-11         [-1, 64, 112, 112]          36,928\n             ReLU-12         [-1, 64, 112, 112]               0\n      BatchNorm2d-13         [-1, 64, 112, 112]             128\n        MaxPool2d-14           [-1, 64, 56, 56]               0\n           Conv2d-15          [-1, 128, 56, 56]          73,856\n             ReLU-16          [-1, 128, 56, 56]               0\n      BatchNorm2d-17          [-1, 128, 56, 56]             256\n           Conv2d-18          [-1, 128, 56, 56]         147,584\n             ReLU-19          [-1, 128, 56, 56]               0\n      BatchNorm2d-20          [-1, 128, 56, 56]             256\n        MaxPool2d-21          [-1, 128, 28, 28]               0\n           Conv2d-22          [-1, 256, 28, 28]         295,168\n             ReLU-23          [-1, 256, 28, 28]               0\n      BatchNorm2d-24          [-1, 256, 28, 28]             512\n           Conv2d-25          [-1, 256, 28, 28]         590,080\n             ReLU-26          [-1, 256, 28, 28]               0\n      BatchNorm2d-27          [-1, 256, 28, 28]             512\n        MaxPool2d-28          [-1, 256, 14, 14]               0\n          Dropout-29                [-1, 50176]               0\n           Linear-30                 [-1, 1024]      51,381,248\n             ReLU-31                 [-1, 1024]               0\n          Dropout-32                 [-1, 1024]               0\n           Linear-33                   [-1, 39]          39,975\n================================================================\nTotal params: 52,595,399\nTrainable params: 52,595,399\nNon-trainable params: 0\n----------------------------------------------------------------\nInput size (MB): 0.57\nForward/backward pass size (MB): 143.96\nParams size (MB): 200.64\nEstimated Total Size (MB): 345.17\n----------------------------------------------------------------\n",
+    "error": null
+  },
+  {
+    "cell": 34,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 35,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 37,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 38,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 39,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 40,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 42,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 44,
+    "type": "execute_result",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 49,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 51,
+    "type": "stream",
+    "text": "Train Accuracy : 96.7\nTest Accuracy : 98.9\nValidation Accuracy : 98.7\n",
+    "error": null
+  },
+  {
+    "cell": 51,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 53,
+    "type": "error",
+    "text": "",
+    "error": "name 'dataset' is not defined"
+  },
+  {
+    "cell": 53,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 54,
+    "type": "error",
+    "text": "",
+    "error": "name 'transform_index_to_disease' is not defined"
+  },
+  {
+    "cell": 54,
+    "type": "display_data",
+    "text": "",
+    "error": null
+  },
+  {
+    "cell": 58,
+    "type": "stream",
+    "text": "Original :  Apple_ceder_apple_rust\nApple : Cedar rust\n",
+    "error": null
+  },
+  {
+    "cell": 60,
+    "type": "stream",
+    "text": "Original :  Apple_scab\nTomato : Septoria Leaf Spot\n",
+    "error": null
+  },
+  {
+    "cell": 61,
+    "type": "stream",
+    "text": "Original :  Grape_esca\nGrape : Esca | Black Measles\n",
+    "error": null
+  },
+  {
+    "cell": 62,
+    "type": "stream",
+    "text": "Original :  apple_black_rot\nPepper bell : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 63,
+    "type": "stream",
+    "text": "Original :  apple_healthy\nApple : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 64,
+    "type": "stream",
+    "text": "Original :  background_without_leaves\nBackground Without Leaves\n",
+    "error": null
+  },
+  {
+    "cell": 65,
+    "type": "stream",
+    "text": "Original :  blueberry_healthy\nBlueberry : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 66,
+    "type": "stream",
+    "text": "Original :  cherry_healthy\nCherry : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 67,
+    "type": "stream",
+    "text": "Original :  cherry_powdery_mildew\nCherry : Powdery Mildew\n",
+    "error": null
+  },
+  {
+    "cell": 68,
+    "type": "stream",
+    "text": "Original :  corn_cercospora_leaf\nCorn : Cercospora Leaf Spot | Gray Leaf Spot\n",
+    "error": null
+  },
+  {
+    "cell": 69,
+    "type": "stream",
+    "text": "Original :  corn_common_rust\nCorn : Common Rust\n",
+    "error": null
+  },
+  {
+    "cell": 70,
+    "type": "stream",
+    "text": "Original :  corn_healthy\nCorn : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 71,
+    "type": "stream",
+    "text": "Original :  corn_northen_leaf_blight\nCorn : Northern Leaf Blight\n",
+    "error": null
+  },
+  {
+    "cell": 72,
+    "type": "stream",
+    "text": "Original :  grape_black_rot\nGrape : Black Rot\n",
+    "error": null
+  },
+  {
+    "cell": 73,
+    "type": "stream",
+    "text": "Original :  grape_healthy\nGrape : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 74,
+    "type": "stream",
+    "text": "Original :  grape_leaf_blight\nGrape : Leaf Blight | Isariopsis Leaf Spot\n",
+    "error": null
+  },
+  {
+    "cell": 75,
+    "type": "stream",
+    "text": "Original :  orange_haunglongbing\nOrange : Haunglongbing | Citrus Greening\n",
+    "error": null
+  },
+  {
+    "cell": 76,
+    "type": "stream",
+    "text": "Original :  peach_bacterial_spot\nPeach : Bacterial Spot\n",
+    "error": null
+  },
+  {
+    "cell": 77,
+    "type": "stream",
+    "text": "Original :  peach_healthy\nPeach : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 78,
+    "type": "stream",
+    "text": "Original :  pepper_bacterial_spot\nPepper bell : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 79,
+    "type": "stream",
+    "text": "Original :  pepper_bell_healthy\nPepper bell : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 80,
+    "type": "stream",
+    "text": "Original :  potato_early_blight\nPotato : Early Blight\n",
+    "error": null
+  },
+  {
+    "cell": 81,
+    "type": "stream",
+    "text": "Original :  potato_healthy\nPotato : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 82,
+    "type": "stream",
+    "text": "Original :  potato_late_blight\nPotato : Late Blight\n",
+    "error": null
+  },
+  {
+    "cell": 83,
+    "type": "stream",
+    "text": "Original :  raspberry_healthy\nRaspberry : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 84,
+    "type": "stream",
+    "text": "Original :  soyaben healthy\nSoybean : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 85,
+    "type": "stream",
+    "text": "Original :  potato_late_blight\nPotato : Late Blight\n",
+    "error": null
+  },
+  {
+    "cell": 86,
+    "type": "stream",
+    "text": "Original :  squash_powdery_mildew\nSquash : Powdery Mildew\n",
+    "error": null
+  },
+  {
+    "cell": 87,
+    "type": "stream",
+    "text": "Original :  starwberry_healthy\nStrawberry : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 88,
+    "type": "stream",
+    "text": "Original :  starwberry_leaf_scorch\nStrawberry : Leaf Scorch\n",
+    "error": null
+  },
+  {
+    "cell": 89,
+    "type": "stream",
+    "text": "Original :  tomato_bacterial_spot\nTomato : Early Blight\n",
+    "error": null
+  },
+  {
+    "cell": 90,
+    "type": "stream",
+    "text": "Original :  tomato_early_blight\nTomato : Early Blight\n",
+    "error": null
+  },
+  {
+    "cell": 91,
+    "type": "stream",
+    "text": "Original :  tomato_healthy\nTomato : Healthy\n",
+    "error": null
+  },
+  {
+    "cell": 92,
+    "type": "stream",
+    "text": "Original :  tomato_late_blight\nTomato : Late Blight\n",
+    "error": null
+  },
+  {
+    "cell": 93,
+    "type": "stream",
+    "text": "Original :  tomato_leaf_mold\nTomato : Leaf Mold\n",
+    "error": null
+  },
+  {
+    "cell": 94,
+    "type": "stream",
+    "text": "Original :  tomato_mosaic_virus\nTomato : Mosaic Virus\n",
+    "error": null
+  },
+  {
+    "cell": 95,
+    "type": "stream",
+    "text": "Original :  tomato_septoria_leaf_spot\nTomato : Septoria Leaf Spot\n",
+    "error": null
+  },
+  {
+    "cell": 96,
+    "type": "stream",
+    "text": "Original :  tomato_spider_mites_two_spotted_spider_mites\nTomato : Spider Mites | Two-Spotted Spider Mite\n",
+    "error": null
+  },
+  {
+    "cell": 97,
+    "type": "stream",
+    "text": "Original :  tomato_target_spot\nTomato : Target Spot\n",
+    "error": null
+  },
+  {
+    "cell": 98,
+    "type": "stream",
+    "text": "Original :  tomato_yellow_leaf_curl_virus\nTomato : Yellow Leaf Curl Virus\n",
+    "error": null
+  }
+]

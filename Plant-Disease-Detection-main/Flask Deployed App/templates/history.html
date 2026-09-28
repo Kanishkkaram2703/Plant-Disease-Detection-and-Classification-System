@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Prediction history · PlantCare AI{% endblock %}
+{% block breadcrumb %}Prediction history{% endblock %}
+{% block body %}
+<div class="page-heading"><div><p class="eyebrow">Plant Doctor</p><h1 class="page-title">Prediction history</h1><p class="page-description">Recent checks are stored temporarily in this browser for this development phase. No database persistence is claimed yet.</p></div><a class="button button-primary" href="{{ url_for('plant_doctor_page') }}"><svg class="icon"><use href="#icon-leaf"></use></svg>New health check</a></div>
+<section class="card" data-history><div class="section-card-header"><div><h2 class="section-title">Recent screenings</h2><p class="section-subtitle">Select a result to reopen its details.</p></div></div><div class="history-list" data-history-list></div><div class="empty-state history-empty" data-history-empty hidden><div class="empty-icon"><svg class="icon"><use href="#icon-history"></use></svg></div><h3>No predictions saved yet</h3><p>Run a Plant Doctor screening to create temporary browser history.</p><a class="button button-secondary" href="{{ url_for('plant_doctor_page') }}">Open Plant Doctor</a></div></section>
+{% endblock %}

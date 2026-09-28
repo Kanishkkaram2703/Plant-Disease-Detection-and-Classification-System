@@ -1,0 +1,116 @@
+{
+  "archive": "Data for Identification of Plant Leaf Diseases Using a 9-layer Deep Convolutional Neural Network\\Plant_leaf_diseases_dataset_without_augmentation.zip",
+  "images_scanned": 55448,
+  "valid_images": 55448,
+  "invalid_images": [],
+  "dimensions": {
+    "256x256": 54305,
+    "256x192": 1143
+  },
+  "modes": {
+    "RGB": 55447,
+    "RGBA": 1
+  },
+  "formats": {
+    "JPEG": 55447,
+    "PNG": 1
+  },
+  "exact_hash_scan": {
+    "performed": true,
+    "unique_hashes": 55425,
+    "duplicate_groups": 22,
+    "duplicate_extra_files": 23,
+    "groups": [
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (1120).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (163).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (1272).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (908).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (1335).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (1447).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (1552).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (1631).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (375).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (846).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (408).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (904).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (54).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Apple___healthy/image (834).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Background_without_leaves/image (40).jpg",
+        "Plant_leave_diseases_dataset_without_augmentation/Background_without_leaves/image (60).jpg",
+        "Plant_leave_diseases_dataset_without_augmentation/Background_without_leaves/image (851).jpg"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (1027).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (682).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (1305).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (55).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (1311).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (984).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (1457).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (477).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (474).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (553).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (943).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___healthy/image (992).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (109).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (54).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (1188).jpg",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (1485).jpg"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (1400).jpg",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (590).jpg"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (1578).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (1627).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (1598).jpg",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (882).jpg"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (1704).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (275).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (1748).JPG",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (971).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (182).jpg",
+        "Plant_leave_diseases_dataset_without_augmentation/Tomato___Late_blight/image (264).jpg"
+      ]
+    ]
+  },
+  "seconds": 93.23884210000142
+}

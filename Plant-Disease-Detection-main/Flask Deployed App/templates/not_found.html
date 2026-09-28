@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Page not found · PlantCare AI{% endblock %}
+{% block breadcrumb %}Page not found{% endblock %}
+{% block body %}
+<section class="card empty-state"><div class="empty-icon"><svg class="icon"><use href="#icon-alert"></use></svg></div><h3>That page is not available</h3><p>Use the navigation to return to the PlantCare workspace.</p><a class="button button-primary" href="{{ url_for('dashboard_page') }}">Go to dashboard</a></section>
+{% endblock %}

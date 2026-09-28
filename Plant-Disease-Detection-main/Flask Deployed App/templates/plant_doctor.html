@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Plant Doctor · PlantCare AI{% endblock %}
+{% block breadcrumb %}Plant Doctor{% endblock %}
+{% block body %}
+<div class="page-heading"><div><p class="eyebrow">Plant health screening</p><h1 class="page-title">Plant Doctor</h1><p class="page-description">Upload a leaf image or capture one with your camera. The model returns a screening result with the top three model outputs and information from the project's verified sources.</p></div></div>
+<div data-plant-doctor data-initial-error="{{ initial_error or '' }}">
+  <div class="alert" data-analysis-error hidden role="alert"><svg class="icon"><use href="#icon-alert"></use></svg><span data-error-text></span></div>
+  <div class="doctor-layout">
+    <section class="card doctor-main">
+      <div class="mode-tabs" role="tablist" aria-label="Image source"><button class="mode-tab is-active" type="button" role="tab" data-mode-tab data-mode="upload"><svg class="icon"><use href="#icon-upload"></use></svg>Upload image</button><button class="mode-tab" type="button" role="tab" data-mode-tab data-mode="camera"><svg class="icon"><use href="#icon-camera"></use></svg>Use camera</button></div>
+      <div class="input-zone">
+        <div data-upload-panel>
+          <div class="upload-zone" data-upload-zone>
+            <div class="upload-icon"><svg class="icon"><use href="#icon-upload"></use></svg></div>
+            <h3>Bring a clear leaf image</h3>
+            <p>Drag and drop here, or browse from your device.</p>
+            <button class="button button-primary" type="button" data-browse><svg class="icon"><use href="#icon-upload"></use></svg>Browse files</button>
+            <small>JPEG, PNG or WebP · up to 8 MB</small>
+          </div>
+        </div>
+        <div class="camera-panel is-hidden" data-camera-panel hidden data-camera-state="idle">
+          <div class="camera-frame"><video data-camera-video autoplay playsinline muted aria-label="Live camera preview"></video><span class="camera-frame-guide" aria-hidden="true"></span></div>
+          <div class="camera-status" data-camera-status>Camera preview is ready when you open this tab.</div>
+          <div class="camera-controls"><button class="button button-primary" type="button" data-capture><svg class="icon"><use href="#icon-camera"></use></svg>Capture photo</button><button class="button button-secondary" type="button" data-retake>Retake</button></div>
+        </div>
+        <div class="capture-preview" data-capture-preview hidden><img data-preview-image alt="Selected plant image preview"><div class="preview-actions"><button class="button button-secondary" type="button" data-retake>Replace image</button></div></div>
+        <input class="visually-hidden" type="file" data-image-input accept="image/jpeg,image/png,image/webp" aria-label="Choose plant image">
+        <div class="analysis-actions"><button class="button button-primary" type="button" data-analyze disabled><svg class="icon"><use href="#icon-leaf"></use></svg>Analyze image</button></div>
+        <div class="loading-state" data-analysis-loading><span class="spinner" aria-hidden="true"></span><span>Analyzing image…</span></div>
+      </div>
+    </section>
+    <aside class="doctor-aside">
+      <section class="card guidance-card"><h3>Capture guidance</h3><p>Good input makes the screening easier to interpret.</p><ul class="guidance-list"><li><svg class="icon"><use href="#icon-check-square"></use></svg><span>Use good, even lighting.</span></li><li><svg class="icon"><use href="#icon-check-square"></use></svg><span>Keep the affected leaf centered and in focus.</span></li><li><svg class="icon"><use href="#icon-check-square"></use></svg><span>Move closer so symptoms are visible.</span></li><li><svg class="icon"><use href="#icon-check-square"></use></svg><span>Avoid glare, heavy shadows and excessive blur.</span></li></ul></section>
+      <section class="card guidance-card" data-prediction-context><h3>Save to a field (optional)</h3><p>Choose a field or crop cycle to associate this screening with your MongoDB records.</p><label>Field<select data-field-select><option value="">No field association</option></select></label><label>Crop cycle<select data-crop-select><option value="">No crop association</option></select></label><p class="result-note">Create a farmer profile first if these options are unavailable.</p></section>
+    </aside>
+  </div>
+  <div data-analysis-result hidden></div>
+</div>
+{% endblock %}

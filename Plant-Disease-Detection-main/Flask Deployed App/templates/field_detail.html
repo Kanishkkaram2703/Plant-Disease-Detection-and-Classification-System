@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Field details · PlantCare AI{% endblock %}
+{% block breadcrumb %}Fields / Details{% endblock %}
+{% block body %}
+<div class="page-heading"><div><p class="eyebrow">Field workspace</p><h1 class="page-title" data-field-name>Loading field…</h1><p class="page-description" data-field-meta>Loading field information…</p></div><div><a class="button button-secondary" href="/fields/{{ field_id }}/edit">Edit field</a></div></div>
+<div data-field-detail data-field-id="{{ field_id }}">
+  <section class="card field-summary-card">
+    <div class="field-summary-grid"><div><span>Status</span><strong data-field-value="status">Loading</strong></div><div><span>Area</span><strong data-field-value="area">Loading</strong></div><div><span>Soil</span><strong data-field-value="soil_type">Not set</strong></div><div><span>Irrigation</span><strong data-field-value="irrigation_method">Not set</strong></div><div><span>Location</span><strong data-field-location>Not set</strong></div><div><span>Notes</span><strong data-field-value="notes">Not set</strong></div></div>
+  </section>
+  <div class="detail-grid">
+    <section class="card detail-card"><h3>Active crop cycles</h3><div data-crop-list><div class="empty-state"><div class="spinner"></div></div></div></section>
+    <section class="card detail-card"><h3>Recent tasks</h3><div data-task-list><div class="empty-state"><div class="spinner"></div></div></div></section>
+    <section class="card detail-card"><h3>Recent irrigation</h3><div data-irrigation-list><div class="empty-state"><div class="spinner"></div></div></div></section>
+    <section class="card detail-card"><h3>Recent health checks</h3><div data-health-list><div class="empty-state"><div class="spinner"></div></div></div></section>
+    <section class="card detail-card"><h3>Recent disease predictions</h3><div data-prediction-list><div class="empty-state"><div class="spinner"></div></div></div></section>
+  </div>
+  <div class="detail-grid" style="margin-top:18px">
+    <form class="card form-card" data-detail-form data-endpoint="/api/crops">
+      <h3>Add crop</h3><p class="form-help">Which crop is currently planted in this field?</p>
+      <label>Crop name<select name="crop_name" required><option value="">Select supported crop</option>{% for crop in form_options.supported_crops %}<option value="{{ crop }}">{{ crop }}</option>{% endfor %}</select></label>
+      <label>Variety<input name="variety" maxlength="100"></label><label>Planting date<input name="planting_date" type="date" required></label>
+      <label>Growth stage<select name="current_growth_stage" required><option value="">Select observed stage</option>{% for stage in form_options.growth_stages %}<option value="{{ stage }}">{{ stage }}</option>{% endfor %}</select></label>
+      <input type="hidden" name="field_id" value="{{ field_id }}"><div class="form-actions"><button class="button button-primary" type="submit">Save crop</button></div>
+    </form>
+    <form class="card form-card" data-detail-form data-endpoint="/api/tasks">
+      <h3>Add task</h3><p class="form-help">Create a reminder for work on this field.</p>
+      <label>Crop cycle<select name="crop_cycle_id" data-crop-select><option value="">Optional crop cycle</option></select></label><label>Title<input name="title" required maxlength="160"></label><label>Task type<input name="task_type" maxlength="80"></label><label>Due date<input name="due_date" type="date"></label><label>Priority<select name="priority"><option value="medium">Medium</option><option value="low">Low</option><option value="high">High</option></select></label><input type="hidden" name="field_id" value="{{ field_id }}"><div class="form-actions"><button class="button button-primary" type="submit">Save task</button></div>
+    </form>
+    <form class="card form-card" data-detail-form data-endpoint="/api/irrigation">
+      <h3>Record irrigation</h3><label>Crop cycle<select name="crop_cycle_id" data-crop-select><option value="">Optional crop cycle</option></select></label><label>Date and time<input name="recorded_at" type="datetime-local"></label><label>Method<select name="irrigation_method"><option value="">Choose method</option>{% for item in form_options.irrigation_methods %}<option value="{{ item }}">{{ item }}</option>{% endfor %}</select></label><label>Duration in minutes<input name="duration_minutes" type="number" min="0"></label><label>Notes<textarea name="notes"></textarea></label><input type="hidden" name="field_id" value="{{ field_id }}"><div class="form-actions"><button class="button button-primary" type="submit">Save irrigation</button></div>
+    </form>
+    <form class="card form-card" data-detail-form data-endpoint="/api/health-logs">
+      <h3>Add health observation</h3><label>Crop cycle<select name="crop_cycle_id" data-crop-select><option value="">Optional crop cycle</option></select></label><label>Health status<input name="health_status" required maxlength="80" placeholder="Observed status"></label><label>Observation date<input name="observation_date" type="date" required></label><label>Symptoms or notes<textarea name="symptoms_notes"></textarea></label><input type="hidden" name="field_id" value="{{ field_id }}"><div class="form-actions"><button class="button button-primary" type="submit">Save observation</button></div>
+    </form>
+  </div>
+</div>
+{% endblock %}

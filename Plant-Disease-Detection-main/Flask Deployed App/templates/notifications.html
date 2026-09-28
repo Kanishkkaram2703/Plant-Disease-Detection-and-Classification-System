@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Notifications · PlantCare AI{% endblock %}
+{% block breadcrumb %}Notifications{% endblock %}
+{% block body %}
+<div data-notifications-page>
+  <div class="page-heading"><div><p class="eyebrow">Farm workspace</p><h1 class="page-title">Notifications</h1><p class="page-description">Updates created by real task, irrigation, health and field events.</p></div><button class="button button-secondary" type="button" data-mark-all-read>Mark all as read</button></div>
+  <section class="card"><div class="section-card-header"><div><h2 class="section-title">Your notifications</h2><p class="section-subtitle">Unread items stay visible until you mark them read.</p></div></div><div class="catalog-grid" data-notification-list></div></section>
+</div>
+{% endblock %}

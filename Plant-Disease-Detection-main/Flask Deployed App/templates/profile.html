@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Farmer profile · PlantCare AI{% endblock %}
+{% block breadcrumb %}Profile{% endblock %}
+{% block body %}
+<div class="page-heading"><div><p class="eyebrow">Account</p><h1 class="page-title">Farmer profile</h1><p class="page-description">Keep your workspace identity up to date. Your field and prediction records stay scoped to this profile.</p></div></div>
+<div class="ui-only-banner" data-profile-message hidden role="status"><svg class="icon"><use href="#icon-info"></use></svg><span data-profile-message-text></span></div>
+<section class="card profile-summary" data-profile-summary hidden>
+  <div class="profile-avatar-large" data-profile-initials>F</div>
+  <div><h2 data-profile-name>Farmer</h2><p data-profile-farm>Farm name not set</p></div>
+  <div class="profile-meta"><div><span>Email</span><strong data-profile-email>Not set</strong></div><div><span>Phone</span><strong data-profile-phone>Not set</strong></div><div><span>Location</span><strong data-profile-location>Not set</strong></div></div>
+  <div class="form-actions"><button class="button button-secondary" type="button" data-edit-profile>Edit profile</button><button class="button button-danger" type="button" data-logout>Log out</button></div>
+</section>
+<form class="card form-card" data-profile-form hidden novalidate>
+  <div class="form-grid">
+    <div class="form-group"><label class="form-label" for="profile-name">Name <em>*</em></label><input class="form-control" id="profile-name" name="name" required maxlength="120" placeholder="Your name"></div>
+    <div class="form-group"><label class="form-label" for="profile-email">Email <em>*</em></label><input class="form-control" id="profile-email" name="email" type="email" required maxlength="180" placeholder="you@example.com"></div>
+    <div class="form-group"><label class="form-label" for="profile-phone">Phone</label><input class="form-control" id="profile-phone" name="phone" maxlength="40" placeholder="Optional contact number"></div>
+    <div class="form-group"><label class="form-label" for="farm-name">Farm name</label><input class="form-control" id="farm-name" name="farm_name" maxlength="160" placeholder="Optional farm or organization"></div>
+    <div class="form-group full"><label class="form-label" for="profile-location">Location</label><input class="form-control" id="profile-location" name="location" maxlength="160" placeholder="Optional village, district or region"><small class="form-help">This profile location is for display only and does not replace field locations.</small></div>
+  </div>
+  <div class="form-actions"><button class="button button-secondary" type="button" data-cancel-profile>Cancel</button><button class="button button-primary" type="submit">Save profile</button></div>
+</form>
+<div class="empty-state" data-profile-logged-out hidden><div class="empty-icon"><svg class="icon"><use href="#icon-settings"></use></svg></div><h3>Create your farmer profile</h3><p>A profile is required before saving fields and linked farm records.</p><button class="button button-primary" type="button" data-create-profile>Get started</button></div>
+{% endblock %}

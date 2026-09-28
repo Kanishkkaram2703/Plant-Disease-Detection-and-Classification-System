@@ -1,0 +1,21 @@
+{
+  "checkpoint_type": "OrderedDict",
+  "checkpoint_entries": 60,
+  "state_dict_load": "<All keys matched successfully>",
+  "parameters": 52595399,
+  "trainable_parameters": 52595399,
+  "input_shape": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "output_shape": [
+    1,
+    39
+  ],
+  "output_is_finite": true,
+  "logit_min": -95.63107299804688,
+  "logit_max": 58.28135681152344,
+  "model_file_bytes": 210409423
+}

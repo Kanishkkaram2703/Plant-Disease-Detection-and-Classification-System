@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Settings · PlantCare AI{% endblock %}
+{% block breadcrumb %}Settings{% endblock %}
+{% block body %}
+<div data-settings-page>
+  <div class="page-heading"><div><p class="eyebrow">Account preferences</p><h1 class="page-title">Settings</h1><p class="page-description">Choose how PlantCare looks and how you receive activity updates.</p></div></div>
+  <div class="ui-only-banner" data-settings-message hidden role="status"><svg class="icon"><use href="#icon-info"></use></svg><span data-settings-message-text></span></div>
+  <div class="settings-grid">
+    <section class="card settings-card">
+      <h2>Appearance</h2><p>Use a comfortable display preference on this device.</p>
+      <form data-settings-form>
+        <div class="form-group"><label class="form-label" for="theme">Theme</label><select class="form-control" id="theme" name="theme"><option value="system">Use device setting</option><option value="light">Light</option><option value="dark">Dark</option></select></div>
+        <div class="form-group"><label class="form-label" for="unit-preference">Measurement preference</label><select class="form-control" id="unit-preference" name="unit_preference"><option value="metric">Metric</option><option value="imperial">Imperial</option></select><small class="form-help">This preference is stored for future field display choices; existing records are not converted.</small></div>
+        <div class="form-actions"><button class="button button-primary" type="submit">Save preferences</button></div>
+      </form>
+    </section>
+    <section class="card settings-card">
+      <h2>Notifications</h2><p>Choose whether PlantCare creates notifications for real task and field events.</p>
+      <label class="toggle-row"><input type="checkbox" data-notifications-enabled><span><strong>Activity notifications</strong><small>Task, irrigation, health and other saved events.</small></span></label>
+      <p class="form-help">Existing notifications remain in your history. This controls new event notifications.</p>
+    </section>
+  </div>
+  <p style="margin-top:18px"><a class="text-link" href="{{ url_for('profile_page') }}">Manage farmer profile</a></p>
+</div>
+{% endblock %}

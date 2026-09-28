@@ -1,0 +1,23 @@
+# Local runtime state
+PlantCare-MongoDB/data/
+PlantCare-MongoDB/log/
+Flask Deployed App/static/uploads/*
+!Flask Deployed App/static/uploads/Readme.md
+
+# Training source data is not required to run the Flask application.
+Data for Identification of Plant Leaf Diseases Using a 9-layer Deep Convolutional Neural Network/
+Model/Plant_leaf_diseases_dataset_*.zip
+*.zip
+
+# Python and local environment files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+kaggle.json
+**/kaggle.json
+credentials/
+secrets/

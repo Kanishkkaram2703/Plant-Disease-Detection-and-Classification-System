@@ -1,0 +1,811 @@
+{
+  "archive": "Data for Identification of Plant Leaf Diseases Using a 9-layer Deep Convolutional Neural Network\\Plant_leaf_diseases_dataset_with_augmentation.zip",
+  "images_scanned": 61486,
+  "valid_images": 61486,
+  "invalid_images": [],
+  "dimensions": {
+    "256x256": 55409,
+    "350x350": 370,
+    "256x192": 1143,
+    "204x204": 4564
+  },
+  "modes": {
+    "RGB": 61485,
+    "RGBA": 1
+  },
+  "formats": {
+    "JPEG": 61485,
+    "PNG": 1
+  },
+  "exact_hash_scan": {
+    "performed": true,
+    "unique_hashes": 61274,
+    "duplicate_groups": 190,
+    "duplicate_extra_files": 212,
+    "groups": [
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (120).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (491).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (472).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (473).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (494).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (495).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (544).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (545).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (570).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (572).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (578).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (579).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (612).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (613).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (619).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (620).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (621).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (622).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (626).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (627).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (642).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (645).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (676).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (677).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (680).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (681).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (682).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (683).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (693).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (824).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (697).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (699).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (719).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (720).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (739).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (915).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (761).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (762).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (776).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (777).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (799).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Black_rot/image (800).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (1).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (194).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (101).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (458).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (105).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (466).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (114).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (484).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (119).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (497).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (122).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (502).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (129).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (518).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (144).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (557).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (146).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (564).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (156).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (584).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (159).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (592).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (164).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (606).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (177).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (646).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (181).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (660).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (197).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (198).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (202).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (3).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (208).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (209).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (211).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (214).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (212).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (213).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (217).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (218).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (223).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (224).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (228).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (231).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (229).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (230).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (241).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (243).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (247).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (249).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (250).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (253).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (254).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (255).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (256).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (258).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (259).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (267).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (268).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (271).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (273).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (275).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (276).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (278).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (274).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (32).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (285).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (37).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (287).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (288).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (289).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (293).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (294).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (298).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (299).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (300).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (302).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (303).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (308).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (311).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (312).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (313).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (314).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (315).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (318).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (319).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (322).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (324).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (325).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (327).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (328).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (329).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (330).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (332).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (334).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (336).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (338).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (340).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (345).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (56).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (368).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (370).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (372).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (70).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (374).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (376).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (382).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (384).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (386).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (389).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (395).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (396).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (404).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (83).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (405).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (406).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (407).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (410).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (412).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (413).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (414).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (426).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (427).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (436).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (438).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (439).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (443).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (444).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (445).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (446).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (447).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (448).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (450).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (452).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (453).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (461).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (462).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (468).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (469).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (471).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (472).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (478).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (481).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (487).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (488).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (490).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (491).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (493).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (494).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (503).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (506).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (508).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (509).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (516).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (520).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (519).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (521).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (532).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (533).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (534).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (537).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (538).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (548).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (549).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (554).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (556).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (559).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (561).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (562).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (565).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (572).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (573).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (576).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (577).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (590).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (591).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (599).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (600).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (601).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (602).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (607).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (609).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (608).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (610).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (616).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (618).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (621).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (622).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (624).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (625).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (627).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (628).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (629).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (635).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (637).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (640).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (643).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (641).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (642).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (644).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (645).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (648).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (649).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (656).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (657).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (666).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (667).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (668).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (669).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (670).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (671).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (678).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (679).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (680).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (681).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (683).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (686).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (690).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (691).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (698).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (699).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (704).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (701).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (702).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (706).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (707).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (712).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (715).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (718).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (719).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (720).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (723).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (724).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (721).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (722).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (928).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (725).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (727).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (726).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (729).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (730).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (736).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (738).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (748).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (937).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (753).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (754).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (755).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (757).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (760).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (762).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (768).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (769).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (771).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (945).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (778).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (779).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (780).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (782).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (783).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (785).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (788).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (789).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (786).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (787).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (796).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (954).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (800).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (801).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (802).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (803).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (805).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (806).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (814).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (961).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (815).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (816).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (817).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (820).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (824).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (827).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (825).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (826).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (828).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (829).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (831).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (836).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (832).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (835).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (837).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (840).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (838).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (841).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (843).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (845).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (847).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (971).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (851).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (854).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (855).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (857).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (858).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (864).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (979).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (866).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (868).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (869).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (892).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (893).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (901).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (904).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (902).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (905).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (907).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___Cedar_apple_rust/image (995).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (1120).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (163).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (1272).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (908).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (1335).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (1447).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (1552).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (1631).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (375).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (846).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (408).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (904).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (54).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Apple___healthy/image (834).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Background_without_leaves/image (40).jpg",
+        "Plant_leave_diseases_dataset_with_augmentation/Background_without_leaves/image (60).jpg",
+        "Plant_leave_diseases_dataset_with_augmentation/Background_without_leaves/image (851).jpg"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (1027).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (682).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (1305).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (55).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (1311).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (984).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (1457).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (477).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (474).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (553).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (943).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___healthy/image (992).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (109).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (54).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (1188).jpg",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (1485).jpg"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (1400).jpg",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (590).jpg"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (1578).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (1627).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (1598).jpg",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (882).jpg"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (1704).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (275).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (1748).JPG",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (971).JPG"
+      ],
+      [
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (182).jpg",
+        "Plant_leave_diseases_dataset_with_augmentation/Tomato___Late_blight/image (264).jpg"
+      ]
+    ]
+  },
+  "seconds": 97.77714879999985
+}

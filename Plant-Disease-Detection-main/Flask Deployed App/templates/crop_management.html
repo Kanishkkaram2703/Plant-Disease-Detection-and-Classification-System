@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Crop management · PlantCare AI{% endblock %}
+{% block breadcrumb %}Crop management{% endblock %}
+{% block body %}
+<div data-crops-page>
+  <div class="page-heading"><div><p class="eyebrow">Farm workspace</p><h1 class="page-title">Crop management</h1><p class="page-description">Record what is planted in a field and the growth stage you observe today. These are farmer-provided observations, not sensor readings.</p></div></div>
+  <div class="detail-grid">
+    <section class="card form-card">
+      <h2 class="section-title">Add crop cycle</h2>
+      <p class="form-help">A crop cycle connects one crop to one field from planting through completion.</p>
+      <form data-crop-form>
+        <label>Field<select name="field_id" data-field-select required><option value="">Select field</option></select><small>Choose the field where this crop is planted.</small></label>
+        <label>Crop name<select name="crop_name" required><option value="">Select supported crop</option>{% for crop in form_options.supported_crops %}<option value="{{ crop }}">{{ crop }}</option>{% endfor %}</select><small>Choose a crop supported by the Plant Doctor catalog.</small></label>
+        <label>Variety<input name="variety" maxlength="100" placeholder="Optional variety"><small>Enter the variety if you know it.</small></label>
+        <label>Planting date<input name="planting_date" type="date" required><small>When was this crop planted?</small></label>
+        <label>Growth stage<select name="current_growth_stage" required><option value="">Select observed stage</option>{% for stage in form_options.growth_stages %}<option value="{{ stage }}">{{ stage }}</option>{% endfor %}</select><small>Select the stage that best describes the crop today. Stages are general observations and may vary by crop.</small></label>
+        <label>Status<select name="status"><option value="active">Active</option><option value="planned">Planned</option><option value="completed">Completed</option><option value="cancelled">Cancelled</option></select></label>
+        <label>Notes<textarea name="notes" maxlength="2000" placeholder="Optional observations"></textarea></label>
+        <button class="button button-primary" type="submit">Save crop cycle</button>
+      </form>
+    </section>
+    <section class="card section-card"><div class="section-card-header"><div><h2 class="section-title">Crop cycles</h2><p class="section-subtitle">Your saved crop records.</p></div></div><div class="catalog-grid" data-crop-list></div></section>
+  </div>
+</div>
+{% endblock %}

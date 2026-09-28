@@ -1,0 +1,412 @@
+{
+  "files_by_set": {
+    "without_augmentation": 55448,
+    "with_augmentation": 61486
+  },
+  "unique_hashes_across_both_sets": 61274,
+  "cross_archive_exact_duplicate_groups": 55425,
+  "cross_archive_duplicate_files": 110928,
+  "groups_sample": [
+    [
+      "without_augmentation:Apple___Apple_scab\\image (1).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (1).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (10).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (10).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (100).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (100).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (101).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (101).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (102).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (102).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (103).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (103).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (104).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (104).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (105).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (105).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (106).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (106).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (107).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (107).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (108).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (108).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (109).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (109).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (11).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (11).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (110).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (110).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (111).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (111).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (112).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (112).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (113).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (113).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (114).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (114).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (115).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (115).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (116).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (116).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (117).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (117).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (118).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (118).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (119).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (119).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (12).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (12).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (120).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (120).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (121).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (121).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (122).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (122).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (123).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (123).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (124).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (124).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (125).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (125).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (126).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (126).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (127).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (127).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (128).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (128).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (129).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (129).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (13).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (13).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (130).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (130).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (131).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (131).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (132).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (132).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (133).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (133).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (134).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (134).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (135).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (135).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (136).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (136).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (137).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (137).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (138).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (138).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (139).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (139).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (14).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (14).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (140).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (140).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (141).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (141).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (142).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (142).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (143).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (143).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (144).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (144).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (145).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (145).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (146).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (146).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (147).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (147).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (148).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (148).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (149).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (149).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (15).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (15).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (150).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (150).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (151).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (151).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (152).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (152).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (153).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (153).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (154).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (154).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (155).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (155).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (156).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (156).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (157).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (157).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (158).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (158).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (159).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (159).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (16).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (16).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (160).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (160).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (161).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (161).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (162).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (162).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (163).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (163).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (164).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (164).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (165).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (165).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (166).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (166).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (167).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (167).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (168).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (168).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (169).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (169).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (17).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (17).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (170).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (170).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (171).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (171).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (172).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (172).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (173).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (173).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (174).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (174).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (175).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (175).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (176).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (176).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (177).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (177).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (178).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (178).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (179).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (179).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (18).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (18).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (180).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (180).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (181).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (181).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (182).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (182).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (183).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (183).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (184).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (184).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (185).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (185).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (186).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (186).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (187).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (187).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (188).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (188).JPG"
+    ],
+    [
+      "without_augmentation:Apple___Apple_scab\\image (189).JPG",
+      "with_augmentation:Apple___Apple_scab\\image (189).JPG"
+    ]
+  ],
+  "scope": "Exact byte equality only; no perceptual near-duplicate analysis"
+}

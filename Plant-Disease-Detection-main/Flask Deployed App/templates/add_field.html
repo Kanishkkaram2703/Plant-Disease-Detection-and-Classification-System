@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block pagetitle %}{{ 'Edit field' if edit_field_id else 'Add field' }} · PlantCare AI{% endblock %}
+{% block breadcrumb %}Fields / {{ 'Edit field' if edit_field_id else 'Add field' }}{% endblock %}
+{% block body %}
+<div class="page-heading">
+  <div><p class="eyebrow">Field setup</p><h1 class="page-title">{{ 'Edit field' if edit_field_id else 'Add a field' }}</h1><p class="page-description">Tell PlantCare about one field. This information is used to organize your crops and records; no sensor or weather data is assumed.</p></div>
+  <a class="button button-secondary" href="{{ url_for('fields_page') }}">Back to fields</a>
+</div>
+<form class="card form-card" data-field-form data-field-id="{{ edit_field_id or '' }}" novalidate>
+  <div class="form-grid">
+    <div class="form-group"><label class="form-label" for="field-name">Field name <em>*</em></label><input class="form-control" id="field-name" name="field_name" required maxlength="120" placeholder="e.g. North orchard"><small class="form-help">Use a name you will recognize on the dashboard.</small></div>
+    <div class="form-group"><label class="form-label" for="area">Area <em>*</em></label><input class="form-control" id="area" name="area" type="number" min="0.01" step="0.01" required placeholder="e.g. 2.5"><small class="form-help">Enter the size of this field.</small></div>
+    <div class="form-group"><label class="form-label" for="unit">Area unit <em>*</em></label><select class="form-control" id="unit" name="area_unit" required><option value="">Choose a unit</option><option value="acres">Acres</option><option value="hectares">Hectares</option><option value="square_metres">Square metres</option></select></div>
+    <div class="form-group"><label class="form-label" for="soil-type">Soil type</label><select class="form-control" id="soil-type" name="soil_type"><option value="">Choose soil type</option>{% for item in form_options.soil_types %}<option value="{{ item.value }}" data-description="{{ item.description }}">{{ item.value }}</option>{% endfor %}</select><small class="form-help" data-soil-help>Select the closest match. You can choose Other if unsure.</small></div>
+    <div class="form-group"><label class="form-label" for="irrigation-method">Irrigation method</label><select class="form-control" id="irrigation-method" name="irrigation_method"><option value="">Choose a method</option>{% for item in form_options.irrigation_methods %}<option value="{{ item }}">{{ item }}</option>{% endfor %}</select><small class="form-help">Choose Rainfed when the field depends on rainfall.</small></div>
+    <div class="form-group" data-other-irrigation hidden><label class="form-label" for="other-irrigation">Other irrigation method</label><input class="form-control" id="other-irrigation" name="irrigation_method_other" maxlength="80" placeholder="Describe the method"></div>
+    <div class="form-group"><label class="form-label" for="status">Status</label><select class="form-control" id="status" name="status"><option value="active">Active</option><option value="archived">Archived</option></select></div>
+    <div class="form-group"><label class="form-label" for="village">Village / locality</label><input class="form-control" id="village" name="location_village" maxlength="100"></div>
+    <div class="form-group"><label class="form-label" for="district">District</label><input class="form-control" id="district" name="location_district" maxlength="100"></div>
+    <div class="form-group"><label class="form-label" for="state">State</label><select class="form-control" id="state" name="location_state"><option value="">Choose state or union territory</option>{% for state in form_options.states %}<option value="{{ state }}">{{ state }}</option>{% endfor %}</select></div>
+    <div class="form-group"><label class="form-label" for="country">Country</label><input class="form-control" id="country" name="location_country" maxlength="100" value="India"></div>
+    <div class="form-group full"><label class="form-label" for="notes">Notes</label><textarea class="form-control" id="notes" name="notes" maxlength="2000" placeholder="Optional field notes"></textarea></div>
+  </div>
+  <div class="form-actions"><a class="button button-secondary" href="{{ url_for('fields_page') }}">Cancel</a><button class="button button-primary" type="submit">{{ 'Save changes' if edit_field_id else 'Save field' }}</button></div>
+</form>
+{% endblock %}

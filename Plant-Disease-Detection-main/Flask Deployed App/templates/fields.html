@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Fields · PlantCare AI{% endblock %}
+{% block breadcrumb %}Fields{% endblock %}
+{% block body %}
+<div class="page-heading"><div><p class="eyebrow">Farm workspace</p><h1 class="page-title">Fields</h1><p class="page-description">Manage field ownership, soil information, area and irrigation context from one place.</p></div><a class="button button-primary" href="{{ url_for('add_field_page') }}"><svg class="icon"><use href="#icon-plus"></use></svg>Add field</a></div>
+<div class="ui-only-banner" {% if mongo_available %}hidden{% endif %}><svg class="icon"><use href="#icon-info"></use></svg><span>MongoDB is offline. Start the dedicated PlantCare MongoDB instance on port 27018, then refresh this page.</span></div>
+<section class="card" data-fields-page><div class="section-card-header"><div><h2 class="section-title">Your fields</h2><p class="section-subtitle">Only records owned by the current farmer profile are shown.</p></div></div><div class="catalog-grid" data-fields-list><div class="empty-state"><div class="spinner" aria-label="Loading fields"></div><p>Loading fields…</p></div></div></section>
+{% endblock %}

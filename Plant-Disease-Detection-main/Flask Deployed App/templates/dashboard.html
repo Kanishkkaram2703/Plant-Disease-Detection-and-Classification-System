@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Dashboard · PlantCare AI{% endblock %}
+{% block breadcrumb %}Dashboard{% endblock %}
+{% block body %}
+<div data-dashboard-page>
+  <div class="page-heading">
+    <div><p class="eyebrow">Farmer workspace</p><h1 class="page-title">A clearer view of your fields.</h1><p class="page-description">Manage real field records, crop cycles, tasks and plant health observations from one workspace.</p></div>
+    <a class="button button-primary" href="{{ url_for('plant_doctor_page') }}"><svg class="icon"><use href="#icon-leaf"></use></svg>Open Plant Doctor</a>
+  </div>
+  <div class="alert" data-dashboard-database-state hidden role="status"><svg class="icon"><use href="#icon-info"></use></svg><span>Connect MongoDB and create a farmer profile to load field data.</span></div>
+  <div class="stat-row">
+    <div class="card stat-card"><div class="stat-label"><span>Active fields</span><svg class="icon"><use href="#icon-map"></use></svg></div><div class="stat-value" data-stat="active_fields">0</div><div class="stat-note">Stored in your profile</div></div>
+    <div class="card stat-card"><div class="stat-label"><span>Active crops</span><svg class="icon"><use href="#icon-sprout"></use></svg></div><div class="stat-value" data-stat="active_crops">0</div><div class="stat-note">Current crop cycles</div></div>
+    <div class="card stat-card"><div class="stat-label"><span>Open tasks</span><svg class="icon"><use href="#icon-check-square"></use></svg></div><div class="stat-value" data-stat="open_tasks">0</div><div class="stat-note">Work still to complete</div></div>
+    <div class="card stat-card"><div class="stat-label"><span>Health checks</span><svg class="icon"><use href="#icon-history"></use></svg></div><div class="stat-value" data-stat="health_checks">0</div><div class="stat-note">Persisted predictions</div></div>
+  </div>
+  <div class="dashboard-grid">
+    <section class="card section-card"><div class="section-card-header"><div><h2 class="section-title">Your fields</h2><p class="section-subtitle">Open a field to manage crops and activity.</p></div><a class="text-link" href="{{ url_for('fields_page') }}">View fields</a></div><div class="catalog-grid" data-dashboard-fields></div></section>
+    <section class="card section-card"><div class="section-card-header"><div><h2 class="section-title">Upcoming tasks</h2><p class="section-subtitle">Real tasks saved against your fields.</p></div><a class="text-link" href="{{ url_for('tasks_page') }}">View tasks</a></div><div class="history-list" data-dashboard-tasks></div></section>
+  </div>
+</div>
+{% endblock %}

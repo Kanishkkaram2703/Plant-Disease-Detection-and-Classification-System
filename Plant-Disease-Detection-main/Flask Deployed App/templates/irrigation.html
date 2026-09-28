@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Irrigation · PlantCare AI{% endblock %}
+{% block breadcrumb %}Irrigation{% endblock %}
+{% block body %}
+<div data-irrigation-page>
+  <div class="page-heading"><div><p class="eyebrow">Farm workspace</p><h1 class="page-title">Irrigation records</h1><p class="page-description">Record what you actually irrigated. PlantCare does not fabricate schedules, sensor readings or water quantities.</p></div></div>
+  <div class="detail-grid">
+    <section class="card form-card">
+      <h2 class="section-title">Record irrigation</h2>
+      <form data-irrigation-form>
+        <label>Field<select name="field_id" data-field-select required><option value="">Select field</option></select></label>
+        <label>Crop cycle<select name="crop_cycle_id" data-crop-select><option value="">Optional crop cycle</option></select></label>
+        <label>Date and time<input name="recorded_at" type="datetime-local"><small>Leave empty to use the current time.</small></label>
+        <label>Irrigation method<select name="irrigation_method"><option value="">Choose method</option>{% for item in form_options.irrigation_methods %}<option value="{{ item }}">{{ item }}</option>{% endfor %}</select></label>
+        <label>Duration in minutes<input name="duration_minutes" type="number" min="0" max="100000" step="1" placeholder="Optional"></label>
+        <label>Notes<textarea name="notes" maxlength="2000" placeholder="Optional notes about the irrigation event"></textarea></label>
+        <button class="button button-primary" type="submit">Save irrigation record</button>
+      </form>
+    </section>
+    <section class="card section-card"><div class="section-card-header"><div><h2 class="section-title">Irrigation history</h2><p class="section-subtitle">Saved activity, newest first.</p></div></div><div class="catalog-grid" data-irrigation-list></div></section>
+  </div>
+</div>
+{% endblock %}

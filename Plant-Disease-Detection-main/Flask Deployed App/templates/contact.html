@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Support · PlantCare AI{% endblock %}
+{% block breadcrumb %}Support{% endblock %}
+{% block body %}
+<div class="page-heading"><div><p class="eyebrow">PlantCare AI</p><h1 class="page-title">Support</h1><p class="page-description">This workspace is built around the existing Plant Doctor model and a staged farmer-management roadmap.</p></div></div>
+<div class="contact-grid"><section class="card contact-card"><h3>Plant Doctor</h3><p>Use the Plant Doctor for image-based screening. The model probability is not a calibrated guarantee, and important treatment decisions should be confirmed with a local expert.</p><a class="text-link" href="{{ url_for('plant_doctor_page') }}">Open Plant Doctor</a></section><section class="card contact-card"><h3>Implementation boundary</h3><p>Farmer records and Plant Doctor persistence use the dedicated MongoDB instance on port 27018. Cassandra, irrigation calculations, chatbot, LLM and voice features are not implemented.</p><a class="text-link" href="{{ url_for('dashboard_page') }}">Return to dashboard</a></section></div>
+{% endblock %}

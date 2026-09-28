@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block pagetitle %}Tasks · PlantCare AI{% endblock %}
+{% block breadcrumb %}Tasks{% endblock %}
+{% block body %}
+<div data-tasks-page>
+  <div class="page-heading"><div><p class="eyebrow">Farm workspace</p><h1 class="page-title">Tasks</h1><p class="page-description">Keep field work visible. Manual tasks come from you; recommended tasks are created only from verified rules stored in the project.</p></div></div>
+  <div class="detail-grid">
+    <section class="card form-card">
+      <h2 class="section-title">Add my task</h2><p class="form-help">Create a reminder for work you want to track.</p>
+      <form data-task-form>
+        <label>Field<select name="field_id" data-field-select required><option value="">Select field</option></select></label>
+        <label>Crop cycle<select name="crop_cycle_id" data-crop-select><option value="">Optional crop cycle</option></select></label>
+        <label>Title<input name="title" required maxlength="160" placeholder="e.g. Inspect north field"></label>
+        <label>Task type<input name="task_type" maxlength="80" placeholder="e.g. Field inspection"></label>
+        <label>Due date<input name="due_date" type="date"></label>
+        <label>Priority<select name="priority"><option value="medium">Medium</option><option value="low">Low</option><option value="high">High</option></select></label>
+        <label>Description<textarea name="description" maxlength="2000"></textarea></label>
+        <button class="button button-primary" type="submit">Save my task</button>
+      </form>
+    </section>
+    <section class="card section-card"><div class="section-card-header"><div><h2 class="section-title">Recommended tasks</h2><p class="section-subtitle">Generated only when a matching verified agricultural rule exists.</p></div></div><div class="catalog-grid" data-generated-task-list></div></section>
+  </div>
+  <section class="card section-card"><div class="section-card-header"><div><h2 class="section-title">My tasks</h2><p class="section-subtitle">Tasks created by your farmer profile.</p></div></div><div class="catalog-grid" data-task-list></div></section>
+</div>
+{% endblock %}
