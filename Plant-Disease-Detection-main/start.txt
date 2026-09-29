@@ -1,0 +1,45 @@
+PLANT DISEASE DETECTION SYSTEM
+START GUIDE
+
+1. Open PowerShell and move to the project folder.
+
+Set-Location 'D:\E_Drive\Plant_disease\Plant-Disease-Detection-and-Classification-System\Plant-Disease-Detection-main'
+
+2. Install the Python requirements.
+
+python -m pip install -r requirements.txt
+
+3. Create the MongoDB runtime folders if they do not exist.
+
+New-Item -ItemType Directory -Force '.\PlantCare-MongoDB\data' | Out-Null
+New-Item -ItemType Directory -Force '.\PlantCare-MongoDB\log' | Out-Null
+
+4. Start the dedicated MongoDB instance in the first terminal.
+
+& 'C:\Program Files\MongoDB\Server\8.3\bin\mongod.exe' --config '.\PlantCare-MongoDB\mongod.cfg'
+
+MongoDB uses port 27018 for this project.
+
+5. Open a second PowerShell terminal and move to the Flask application folder.
+
+Set-Location 'D:\E_Drive\Plant_disease\Plant-Disease-Detection-and-Classification-System\Plant-Disease-Detection-main\Flask Deployed App'
+
+6. Start the Flask application.
+
+python app.py
+
+7. Open the application in your browser.
+
+http://127.0.0.1:5000/
+
+8. Run the tests from the project folder.
+
+Set-Location 'D:\E_Drive\Plant_disease\Plant-Disease-Detection-and-Classification-System\Plant-Disease-Detection-main'
+python -m unittest discover -s tests -v
+
+The trained model is stored at:
+
+Model\plant_disease_model_1_latest.pt
+
+Do not commit MongoDB data, MongoDB logs, generated uploads, credentials, or
+Python cache files.

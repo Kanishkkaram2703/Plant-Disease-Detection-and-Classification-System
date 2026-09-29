@@ -1,0 +1,33 @@
+# Flask application and Python runtime
+click==7.1.2
+Flask==1.1.2
+gunicorn==20.1.0
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+Werkzeug==1.0.1
+typing-extensions==3.7.4.3
+
+# Numerical and image processing libraries
+numpy==1.20.2
+pandas==1.2.4
+Pillow==8.2.0
+python-dateutil==2.8.1
+pytz==2021.1
+six==1.15.0
+
+# MongoDB persistence used by the Python service
+pymongo>=4.0,<5
+
+# CPU-only PyTorch model runtime and notebook training imports
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.1+cpu
+torchvision==0.9.1+cpu
+torchsummary==1.5.1
+
+# Data-science audit and evaluation tools
+matplotlib==3.3.4
+scikit-learn==0.24.2
+
+# Notebook execution support
+jupyterlab>=3,<5
