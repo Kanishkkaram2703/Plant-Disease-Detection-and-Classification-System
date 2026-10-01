@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
+import os
 from typing import Any, Dict, Optional
 
 from bson import ObjectId
@@ -14,8 +15,8 @@ from pymongo.errors import PyMongoError, ServerSelectionTimeoutError
 # This project intentionally has one local MongoDB boundary.  Keep the URI
 # fixed so an inherited environment variable cannot accidentally target the
 # unrelated default MongoDB instance on port 27017.
-MONGODB_URI = "mongodb://127.0.0.1:27018/plantcare_ai"
-MONGODB_DATABASE = "plantcare_ai"
+MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb://127.0.0.1:27018/plantcare_ai")
+MONGODB_DATABASE = os.environ.get("MONGODB_DATABASE", "plantcare_ai")
 
 
 class DatabaseUnavailableError(Exception):

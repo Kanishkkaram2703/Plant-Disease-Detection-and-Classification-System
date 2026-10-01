@@ -1,0 +1,34 @@
+services:
+  mongodb:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - "27018:27017"
+    volumes:
+      - plantcare_mongo_data:/data/db
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --quiet --eval 'db.adminCommand({ ping: 1 }).ok' || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    environment:
+      MONGODB_URI: mongodb://mongodb:27017/plantcare_ai
+      MONGODB_DATABASE: plantcare_ai
+      FLASK_SECRET_KEY: ${FLASK_SECRET_KEY:-local-development-only-change-me}
+    ports:
+      - "5000:5000"
+    volumes:
+      - plantcare_uploads:/app/Flask Deployed App/static/uploads
+
+volumes:
+  plantcare_mongo_data:
+  plantcare_uploads:

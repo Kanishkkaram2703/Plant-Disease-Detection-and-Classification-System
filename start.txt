@@ -1,0 +1,45 @@
+PLANT DISEASE DETECTION SYSTEM
+START GUIDE
+
+1. Open PowerShell and move to the repository root.
+
+Set-Location 'D:\E_Drive\Plant_disease\Plant-Disease-Detection-and-Classification-System'
+
+2. Install the Python requirements.
+
+python -m pip install -r requirements.txt
+
+3. Download the Git LFS model if required.
+
+git lfs pull
+
+4. Create the MongoDB runtime folders.
+
+New-Item -ItemType Directory -Force '.\PlantCare-MongoDB\data' | Out-Null
+New-Item -ItemType Directory -Force '.\PlantCare-MongoDB\log' | Out-Null
+
+5. Start MongoDB in the first terminal.
+
+& 'C:\Program Files\MongoDB\Server\8.3\bin\mongod.exe' --config '.\PlantCare-MongoDB\mongod.cfg'
+
+MongoDB uses port 27018.
+
+6. Open a second PowerShell terminal and start Flask.
+
+Set-Location '.\Flask Deployed App'
+python app.py
+
+7. Open the application.
+
+http://127.0.0.1:5000/
+
+8. Run the tests from the repository root.
+
+Set-Location '..'
+python -m unittest discover -s tests -v
+
+Docker users can start both Flask and MongoDB with:
+
+docker compose up --build
+
+Do not commit MongoDB data, MongoDB logs, generated uploads, credentials, or Python cache files.

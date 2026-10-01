@@ -1,0 +1,29 @@
+.git
+.git/**
+.github
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.env
+.env.*
+kaggle.json
+credentials
+secrets
+
+# Training and audit material is kept in Git but is not needed in the Flask image.
+Data for Identification of Plant Leaf Diseases Using a 9-layer Deep Convolutional Neural Network/
+*.zip
+_audit
+demo_images
+test_images
+tests
+Model/*.ipynb
+Model/*.md
+Model/*.pdf
+Model/model.JPG
+PlantCare-MongoDB/data
+PlantCare-MongoDB/log
+Flask Deployed App/static/uploads/*
+!Flask Deployed App/static/uploads/Readme.md
