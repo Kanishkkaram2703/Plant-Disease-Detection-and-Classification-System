@@ -22,7 +22,6 @@ tests
 Model/*.ipynb
 Model/*.md
 Model/*.pdf
-Model/model.JPG
 PlantCare-MongoDB/data
 PlantCare-MongoDB/log
 Flask Deployed App/static/uploads/*
